@@ -1,3 +1,4 @@
+\`\`\`
 # javascript-exercises
 **Objetivos**
 
@@ -14,3 +15,4 @@ Este repositório serve como:
 │   ├── 📂 debugging
 ├── 📂 anotacoes
 └── 📜 README.md
+\`\`\`
