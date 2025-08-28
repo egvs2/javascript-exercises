@@ -7,10 +7,10 @@ Este repositório serve como:
 • Portifório de exercícios resolvidos
 • Material de consulta para revisão de conseitos
 
-📦 javascript-exercises
-├── 📂 freecode-camp
-│   ├── 📂 functions
-│   ├── 📂 objects
+📦 javascript-exercises 
+├── 📂 freecode-camp 
+│   ├── 📂 functions 
+│   ├── 📂 objects 
 │   ├── 📂 loops
 │   ├── 📂 debugging
 ├── 📂 anotacoes
