@@ -8,7 +8,9 @@ Este repositório serve como:
 • Material de consulta para revisão de conseitos
 
 📦 javascript-exercises 
-├── 📂 freecode-camp 
+
+├── 📂 freecode-camp
+
 │   ├── 📂 functions 
 │   ├── 📂 objects 
 │   ├── 📂 loops
