@@ -1,1 +1,1 @@
-Este programa ajuda a gerenciar opções de almoço. Trabalhando com um array de opções, adicionando e removendo iténs do array e escolhendo opções de forma aleatória.
+Este programa ajuda a gerenciar opções de almoço. Trabalhando com um array de opções, adicionando e removendo itens do array e escolhendo opções de forma aleatória.
