@@ -11,12 +11,14 @@ Este repositório serve como:
 
 ├── 📂 freecode-camp
 
-│   ├── 📂 functions
-
-│   ├── 📂 objects 
-
-│   ├── 📂 loops
+│   ├── 📂 arrays
 
 │   ├── 📂 debugging
+
+│   ├── 📂 functions
+
+│   ├── 📂 loops 
+
+│   ├── 📂 objects
 
 └── 📜 README.md
