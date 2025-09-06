@@ -1,0 +1,1 @@
+O programa da um apelido ao jogador conforme a sua pontuação.
