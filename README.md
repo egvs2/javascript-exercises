@@ -18,7 +18,4 @@ Este repositório serve como:
 │   ├── 📂 loops
 
 │   ├── 📂 debugging
-
-├── 📂 anotacoes
-
 └── 📜 README.md
