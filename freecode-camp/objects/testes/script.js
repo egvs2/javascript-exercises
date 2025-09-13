@@ -42,8 +42,34 @@ const person02 = {
     ]
 };
 
-console.log(`Endereço do trabalho: ${person02.addresses[1].city}`)
+console.log(`Endereço do trabalho: ${person02.addresses[1].city}`);
 console.log(person02.addresses[1]);
 
+/*JSON.stringify() e JSON.parse()*/
+
+const user = {
+    name: "João",
+    age: 30,
+    isAdmin: "true"
+};
+
+const jsonString = JSON.stringify(user);
+console.log(`Objeto JavaScript para string: ${jsonString}`);
+
+const developerObj = {
+    firstName: "Jessica",
+    isAwesome: true,
+    isMusician: true,
+    country: "USA"
+};
+
+console.log(JSON.stringify(developerObj, ["firstName", "country"]));
+console.log(JSON.stringify(developerObj, null, 2));
+
+const jsonString02 = '{"name": "Jonh", "age": 30, "isAdmin": true}';
+
+const userObj = JSON.parse(jsonString02);
+
+console.log(userObj);
 
 
