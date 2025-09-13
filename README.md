@@ -4,7 +4,7 @@
 
 Este repositório serve como:
 • Registro do meu progresso no aprendizado de JavaScript
-• Portifório de exercícios resolvidos
+• Portfólio de exercícios resolvidos
 • Material de consulta para revisão de conseitos
 
 📦 javascript-exercises 
