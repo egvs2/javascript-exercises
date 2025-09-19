@@ -72,4 +72,43 @@ const userObj = JSON.parse(jsonString02);
 
 console.log(userObj);
 
+console.log("Usar o for ...of com iteráveis")
+
+let it = ["Maria", 4, "João", "Kleber"];
+
+for(let i of it){
+    console.log(i);
+}
+
+console.log("Usar o for in para iterar sobre objetos")
+for(let j in developerObj){
+    console.log(j);
+}
+
+for(let k in developerObj){
+    console.log(`${k}: ${developerObj[k]}`);
+}
+
+let person03 = {
+    name: 'John',
+    age: 30,
+    address: {
+        street: '123 Main St',
+        city: 'Anytown',
+        state: 'CA'
+    }
+};
+
+for (let prop in person03) {
+    if(typeof(prop) === 'object'){
+        for(let m in prop){
+            console.log(m);
+        }
+    }else{
+        console.log(person03[prop]);
+    }
+    
+}
+
+console.log(typeof(person03));
 
