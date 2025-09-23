@@ -80,7 +80,7 @@ for(let i of it){
     console.log(i);
 }
 
-console.log("Usar o for in para iterar sobre objetos")
+console.log("*** Usar o for in para iterar sobre objetos ***")
 for(let j in developerObj){
     console.log(j);
 }
@@ -99,16 +99,45 @@ let person03 = {
     }
 };
 
+console.log("*** Iterar sobre objetos aninhados ***");
+
+/*Função para testar se é um objeto */
+function isObject(obj){
+    return typeof obj === 'object' && !Array.isArray(obj) && obj !== null;
+}
 for (let prop in person03) {
-    if(typeof(prop) === 'object'){
-        for(let m in prop){
-            console.log(m);
+    if(isObject(person03[prop])){
+        for(let nestedProp in person03[prop]){
+            console.log(`${nestedProp} : ${person03[prop][nestedProp]}`);
         }
     }else{
-        console.log(person03[prop]);
+        console.log(`${prop} : ${person03[prop]}`);
     }
-    
 }
 
-console.log(typeof(person03));
+console.log("*** While ***");
+
+let userInput = prompt("Digite um número entre 1  e 10");
+
+while(isNaN(userInput) || Number(userInput) < 1 || Number(userInput) > 10){
+    userInput = prompt("Digite um número valido, entre 1 e 10");
+}
+
+alert("Você digitou um número valido!");
+
+for(let i = 0; i < 10; i++){
+    if(i === 5){
+        continue;
+    }
+    console.log(i);
+}
+
+outerLoop:  for(let i = 0; i < 3; i++){
+    innerLoop: for(let j = 0; j < 3; j++){
+        if(i === 1 && j === 1){
+            break outerLoop;
+        }
+        console.log(`i: ${i}, j: ${j}`);
+    }
+}
 
