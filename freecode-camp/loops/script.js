@@ -40,18 +40,17 @@ function getWordCount(sentence){
     }
 }
 
-/*let frase = "Wikipedia[c] is a free online encyclopedia written and maintained by a community of volunteers, known as Wikipedians, through open collaboration and the wiki software MediaWiki. Founded by Jimmy Wales and Larry Sanger in 2001, Wikipedia has been hosted since 2003 by the Wikimedia Foundation, an American nonprofit organization funded mainly by donations from readers.[2] Wikipedia is the largest and most-read reference work in history.";
-*/
+let frase = "Wikipedia[c] is a free online encyclopedia written and maintained by a community of volunteers, known as Wikipedians, through open collaboration and the wiki software MediaWiki. Founded by Jimmy Wales and Larry Sanger in 2001, Wikipedia has been hosted since 2003 by the Wikimedia Foundation, an American nonprofit organization funded mainly by donations from readers.[2] Wikipedia is the largest and most-read reference work in history.";
 
-//let vowelCount = getVowelCount("Apples are tasty fruits");
-//let contadorDeConsoante = getConsonantCount("Apples are tasty fruits")
+let vowelCount = getVowelCount("Apples are tasty fruits");
+let contadorDeConsoante = getConsonantCount("Apples are tasty fruits")
 
-//console.log(`"Vowel Count: ${vowelCount}`);
-//console.log(`${contadorDeConsoante}`);
+console.log(`"Vowel Count: ${vowelCount}`);
+console.log(`${contadorDeConsoante}`);
 
-//let contaPonto = getPunctuationCount("Wikipedia[C] volunteers, known, MediaWiki. Founded, Wikipedia, an American.[2] Wikipedia is the largest and most-read reference work in history.");
+let contaPonto = getPunctuationCount("Wikipedia[C] volunteers, known, MediaWiki. Founded, Wikipedia, an American.[2] Wikipedia is the largest and most-read reference work in history.");
 
-//console.log(contaPonto);
+console.log(contaPonto);
 
 let contaPalavra = getWordCount("When are you gonna start learning to code?");
 let contaPalavra02 = getWordCount("");
