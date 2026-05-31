@@ -10,15 +10,17 @@ Este repositório serve como:
 📦 javascript-exercises 
 
 ├── 📂 freecode-camp
-
+│ 
 │   ├── 📂 arrays
-
+│ 
 │   ├── 📂 debugging
-
+│ 
 │   ├── 📂 functions
-
+│ 
 │   ├── 📂 loops 
-
+│ 
 │   ├── 📂 objects
-
+│  dit
+│   ├── 📂 strings-e-textos
+│ 
 └── 📜 README.md
