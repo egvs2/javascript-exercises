@@ -20,7 +20,7 @@ Este repositório serve como:
 │   ├── 📂 loops 
 │ 
 │   ├── 📂 objects
-│  dit
+│  
 │   ├── 📂 strings-e-textos
 │ 
 └── 📜 README.md
