@@ -29,3 +29,9 @@ Este repositório serve como:
 │   ├── 📂 strings-e-textos
 
 └── 📜 README.md
+
+## Como usar
+
+1. Navegue pelas pastas deste repositório. Dentro de cada uma, abra o arquivo index.html no seu navegador para visualizar os exercícios e entender qual assunto está sendo praticado.
+
+2. Os resultados das práticas geralmente estão no **console do navegador** (pressione F12 ou clique com botão direito → "Inspecionar" → aba "Console").
