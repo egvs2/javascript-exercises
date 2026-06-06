@@ -9,7 +9,7 @@
 - Imutabilidade das strings
 - Métodos essenciais:
   - `toUpperCase()` / `toLowerCase()`
-  - `trim()`
+  - `trim()` / `trimEnd`
   - `includes()`, `startsWith()`, `endsWith()`
   - `indexOf()` / `lastIndexOf()`
   - `slice()`, `substring()`, `substr()`
