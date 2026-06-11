@@ -12,9 +12,9 @@ function convertCtof(celsius){
 
 function isLeapYear(year){
   if((year%4 === 0 && !(year%100 === 0)) || year%400 === 0){
-    return `${year} is a leap year.`
+    return `${year} É ano bissexto.`
   }else{
-    return `${year} is not a leap year.`
+    return `${year} Não é ano bissexto.`
   }
 }
 
@@ -41,3 +41,8 @@ function truncateString(str, num){
 let str = "Emerson gomes"
 
 console.log(truncateString(str, 10));
+
+
+const saldacoes = nome =>{console.log(`Bom dia!\n${nome}`);}
+
+saldacoes('Emerson');
